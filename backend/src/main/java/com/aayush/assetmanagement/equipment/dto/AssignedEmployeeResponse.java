@@ -1,0 +1,30 @@
+package com.aayush.assetmanagement.equipment.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class AssignedEmployeeResponse {
+
+    private Long id;
+
+    private String employeeCode;
+
+    private String firstName;
+
+    private String lastName;
+
+    private String email;
+
+    private String department;
+
+    private String designation;
+
+}
